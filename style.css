@@ -34,11 +34,10 @@ input {
   border: none; /* borda do elemento */
   outline: none; /* borda quando seleciona o elemento */
   padding: 10px; /* espaçamento interno */
-  border-radius: 5px; /* arredonda as bordas */
+
   font-size: 20px;
-  background-color: #7c7c7c2b;
   color: #ffffff;
-  width: calc(100% - 55px);
+  width: calc(100% - 46px);
 }
 input:hover {
   background-color: #292929;
@@ -49,15 +48,14 @@ button {
   border: none;
   outline: none;
   padding: 12px;
-  border-radius: 100%;
-  background-color: #7c7c7c2b;
+  background-color: #0707072b;
   float: right;
   cursor: pointer;
-  color: #fff;
+  color: #ffffff;
 }
 
 button:hover {
-  background-color: #7c7c7c6b;
+  background-color: #ffffff;
 }
 
 .caixa-media {
@@ -81,4 +79,10 @@ h2 {
 .descricao {
   margin-left: 20px;
   text-transform: capitalize; /* Deixa a primeira letra maiuscula*/
+}
+.barra {
+  background-color: #fff;
+}
+.barra:hover {
+  border-radius: 5px;
 }
