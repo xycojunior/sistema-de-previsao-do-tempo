@@ -5,24 +5,19 @@
   font-family: "Open Sans", sans-serif;
   color: #fff;
 }
-
 body {
-  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  /* Altura / vh - altura */
   width: 100vw;
-  /*  vw - largura */
   background-image: url("https://source.unsplash.com/1600x900/?landscape");
   background-repeat: no-repeat;
   background-position: 100%;
   background-color: #292929;
 }
-
 .caixa-maior {
-  background-color: #000000; /*  Troca cor de fundo  */
+  background-color: #000000; /*  
   width: 90%; /*  Largura  */
   max-width: 370px; /*  Largura  Maxima */
   opacity: 0.8; /* transparencia do item */
@@ -34,14 +29,9 @@ input {
   border: none; /* borda do elemento */
   outline: none; /* borda quando seleciona o elemento */
   padding: 10px; /* espaçamento interno */
-
+  color: #000000;
   font-size: 20px;
-  color: #ffffff;
   width: calc(100% - 46px);
-}
-input:hover {
-  background-color: #292929;
-  color: #fff;
 }
 
 button {
@@ -53,21 +43,16 @@ button {
   cursor: pointer;
   color: #ffffff;
 }
-
-button:hover {
-  background-color: #ffffff;
-}
-
 .caixa-media {
   margin-top: 30px;
 }
-
 .caixa-menor {
+  font-size: 20px;
   display: flex;
   margin-top: 30px;
   align-items: center;
+  justify-content: space-between;
 }
-
 .lupa {
   height: 20px;
 }
